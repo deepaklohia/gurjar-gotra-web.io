@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Jane Doe",
+    "email": "jane@example.com",
+    "role": "Admin",
+    "status": "Active"
+  },
+  {
+    "name": "John Smith",
+    "email": "john@example.com",
+    "role": "User",
+    "status": "Inactive"
+  },
+  {
+    "name": "Mary Johnson",
+    "email": "mary@example.com",
+    "role": "Editor",
+    "status": "Active"
+  },
+  {
+    "name": "James Brown",
+    "email": "james@example.com",
+    "role": "User",
+    "status": "Pending"
+  }
+]
