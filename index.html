@@ -11,20 +11,21 @@
       padding: 20px;
     }
     .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
+      text-align: center;
       margin-bottom: 10px;
     }
     .header h2 {
       color: green;
       font-weight: bold;
-      flex-grow: 1;
-      text-align: center;
-      margin: 0;
+      margin-bottom: 5px;
     }
     .play-icon {
       height: 40px;
+      margin-top: 10px;
+    }
+    .google-play-left {
+      text-align: left;
+      margin-top: 10px;
     }
     .dataTables_wrapper .dataTables_filter {
       float: right;
@@ -38,18 +39,20 @@
     .subtitle {
       text-align: center;
       font-style: italic;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
   <div class="header">
+    <h2>Gurjar Gotra</h2>
+    <div class="subtitle">garv se kaho hum gurjar hain</div>
+  </div>
+  <div class="google-play-left">
     <a href="https://play.google.com/store" target="_blank">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" class="play-icon" alt="Get it on Google Play">
     </a>
-    <h2>Gurjar Gotra</h2>
   </div>
-  <div class="subtitle">garv se kaho hum gurjar hain</div>
 
   <table id="gotraTable" class="table table-striped">
     <thead>
