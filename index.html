@@ -109,15 +109,10 @@
     <div class="subtitle">garv se kaho hum gurjar hain</div>
   </div>
   <div class="google-play-center">
-  <a href="https://play.google.com/store/apps/details?id=com.deepaklohia.gurjargotra&hl=en_IN&gl=US" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" class="play-icon" alt="Get it on Google Play">
-  </a>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLScfZ500QXUwWtBzKN4hrl1E4V_1GqortGoFRQe8V0ucLPbOIw/viewform" target="_blank" style="display: inline-block; text-decoration: none; margin-left: 10px;">
-    <div style="height: 40px; padding: 0 16px; background-color: #4285F4; color: white; font-weight: bold; display: flex; align-items: center; justify-content: center; border-radius: 4px;">
-      Contact Us
-    </div>
-  </a>
-</div>
+    <a href="https://play.google.com/store/apps/details?id=com.deepaklohia.gurjargotra&hl=en_IN&gl=US" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" class="play-icon" alt="Get it on Google Play">
+    </a>
+  </div>
 
   <table id="gotraTable" class="table table-striped">
     <thead>
@@ -157,6 +152,16 @@
         document.getElementById('recordCount').innerText = `Total Records: ${data.length}`;
       });
 
+    
+      <!-- Contact Us button at the bottom -->
+  <div style="text-align: center; margin-top: 40px;">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScfZ500QXUwWtBzKN4hrl1E4V_1GqortGoFRQe8V0ucLPbOIw/viewform" target="_blank" style="text-decoration: none;">
+      <div style="display: inline-block; height: 40px; padding: 0 20px; background-color: #4285F4; color: white; font-weight: bold; line-height: 40px; border-radius: 4px;">
+        Contact Us
+      </div>
+    </a>
+  </div>
+    
     function toggleDarkMode() {
       document.body.classList.toggle('dark-mode');
     }
