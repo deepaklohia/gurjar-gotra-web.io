@@ -158,7 +158,7 @@
           <tr>
             <td>${row.gotra_name}</td>
             <td>${row.gotra_name_hindi}</td>
-            <td>${row.gotra_info}</td>
+           <td>${row.gotra_info.replace(/\n/g, "<br>")}</td>
             <td>${row.source}</td>
           </tr>
         `).join('');
